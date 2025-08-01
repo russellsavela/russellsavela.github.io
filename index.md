@@ -1,15 +1,14 @@
-<body>
-<html>
+---
+layout: default
+---
 
-<H1>Russ Savela CS-499 Portfolio</H1>
+## Russ Savela CS-499 Portfolio
 
 This is the portfolio site for the CS-499 project.
 
-<h3>Artifact Code Review</h3>
+### Artifact Code Review
 This is a code review.
 <video src ="https://rsavela.s3.us-east-1.amazonaws.com/Cs.499.Code.Review.Russell.Savela.mp4" width="600"controls>
     Your browser does not support the video tag.
 </video>
 
-</body>
-</html>
