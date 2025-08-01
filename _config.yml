@@ -7,3 +7,6 @@
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+title: Russ Savela's CS-499 Portfolio
+description: A portfolio site showcasing my work in CS-499.
