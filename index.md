@@ -12,7 +12,10 @@ I have acquired new skills in
 
 ### Artifact Code Review
 
-This is a code review.
+The CS-340 Client/Server final project was used as the orgininal artifact for all three of the enhancement developed for this course.  In this informal code review, the source code was examined in the scope of the three enhancement areas for
+
+
+
 [![CS 499 Russ Savela Code Review](https://img.youtube.com/vi/NZknNQFUsXk/0.jpg)](https://www.youtube.com/watch?v=NZknNQFUsXk)
 
 
