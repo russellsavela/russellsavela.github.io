@@ -41,9 +41,20 @@ And the orignal code is available at:
 
 #### Overview
 
+The Enhancement Two Artifact is also based upon the client/server application used in Enhancement One.  This enhancement of the artifact showcased my ability to refactor data structures and utilize different data sources to produce useful insight into data.  Appropriate libraries were implemented to do so, in this case the SciPy stats library. The artifact now presents the user with both graphical and textual insight into the data distribution.
+
+The decision to use the same artifact for all three enhancements naturally created dependency issues across the three enhancements.  The most critical being the Data Structures and Algorithms enhancement, as it depends on a functioning database to work, while the database is addressed in the third enhancement.   The database CRUD layer was therefore partially refactored to provide read functionality to support this phase.
+The changed database also introduced other incompatibilities.  Data types were not the same, which required type-casting some fields.  Positional notation was used for accessing Pandas DataFrame columns in the original artifact, these positions were therefore updated, typically by naming the columns explicitly, a better coding practice in general.
+
 #### Screenshot
 
+![Enhancement Two Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.two.01.png?raw=true width=800)
+
 #### Gitub Link
+
+The Enhancement Two Artifact code is hosted at:
+
+[Enhancement Two Artifact](https://github.com/russellsavela/cs499-enhancement-two)
 
 ### Artifact Three: Database Enhancement
 
