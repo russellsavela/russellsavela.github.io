@@ -4,7 +4,7 @@ layout: default
 
 ## Russ Savela CS-499 Portfolio
 
-This is the portfolio site for the CS-499 project.
+This is the portfolio site created by Russ Savela for the CS-499 portfolio project.
 
 ### Professional Self Assessment
 
@@ -22,9 +22,9 @@ The CS-340 Client/Server final project was used as the orgininal artifact for al
 ### Artifact One: Software Engineering and Design Enhancement
 
 #### Overview
-
+The CS-340 Artifact was selected for inclusion in the ePortfolio due to the many opportunities to improve upon its functionality.  Specifically, as a web application, it was appropriate to improve the architecture, deployment, hosting, and security posture of this software artifact.  The improvements showcased skills in software automation, problem solving, and a security mindset.  The artifact is now deployed via a commit to the main branch on Github, which triggers a Github Action defined in `.github/workflows/deploy.yaml` to execute a Terraform apply.   Terraform is configured to maintain the state of the infrastructure in HCP Cloud.  The deployment creates an AWS EC2 instance, which is bootstrapped from the `terraform/user-data/config-deps.sh` script.  This script installs dependencies on the instance, clones the application code from Github, and then runs the refactored application code. 
 #### Screenshot
-
+![Enhancement One Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.one.04.png?raw=true width=800)
 #### Gitub Link
 
 ### Artifact Two: Algotrithms and Data Structures Enhancement
