@@ -60,9 +60,17 @@ The Enhancement Two Artifact code is hosted at:
 
 #### Overview
 
+The thrid and final Artifact Enhancement for this course entailed the automated provisioning of a new database, refactoring the database access code, and the creation of unit tests to verify the correct operation of these changes.  The largest challenge in this exercise was the lack of standardization across NoSQL databases.  Relational databases mostly follow the same SQL standards.  DynamoDB has different APIs for database interaction than MongoDB, and therefore all access methods were required to be refactored.  The Read method was completed to support the Enhancement Two requirements earlier, in this enhancement functionality of the Create, Update, and Delete methods was accomplished.  In retrospect, it would have been preferable to complete the database enhancements first.   The data access code was also changed to remove password authentication entirely; this is now done through an IAM role and instance profile created by the CI/CD pipeline in Enhancement One.
+
 #### Screenshot
 
+![Enhancement Three Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.three.01.png?raw=true width=600)
+
 #### Gitub Link
+
+The Enhancement Three Artifact code is hosted at:
+
+[Enhancement Two Artifact](https://github.com/russellsavela/cs499-enhancement-three)
 
 ### Course Outcomes
 
