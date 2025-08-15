@@ -10,3 +10,9 @@ plugins:
 
 title: [Russ Savela's CS-499 Portfolio]
 description: [A portfolio site showcasing my work in CS-499.]
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      css: "/assets/css/custom.css"

@@ -1,5 +1,6 @@
 ---
 layout: default
+css: "assets/css/custom.css"
 ---
 
 ## Russ Savela CS-499 Portfolio
