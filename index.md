@@ -5,20 +5,24 @@ css: "assets/css/custom.scss"
 
 ## Russ Savela CS-499 Portfolio
 
-This is the portfolio site created by Russ Savela for the CS-499 portfolio project. This Computer Science Capstone Course was an opportunity to implement and showcase the tools and techniques learned throughout the SNHU Computer Science curriculum.  This portfolio website seeks to illustrate the alignment of the accomplishments achieved during this course with the five course outcomes.  Choosing these enhancements was both a demonstration of judgement in selecting features that are relevant to industry, and an enjoyable chance to engage in the areas of Computer Science that I most enjoy.
+This is the portfolio site created for the CS-499 portfolio project. This Computer Science Capstone Course was an opportunity to implement and showcase the tools and techniques learned throughout the SNHU Computer Science curriculum.  This portfolio website seeks to illustrate the alignment of the accomplishments achieved during this course with the five course outcomes.  Choosing these enhancements was both a demonstration of judgement in selecting features that are relevant to industry, and an enjoyable chance to engage in the areas of Computer Science that I most enjoy.
 
 ### Professional Self Assessment
 
-I have acquired new skills in 
+I have worked in the technology industry in various roles for over two decades, including software development, consulting, technical support and various sales support positions.  In this Computer Science curriculum, there has been opportunity to expand on the skills I have used in these roles and gain new skills and insights into fields I have had limited exposure to in the past.   
+Choosing the enhancements to implement during this course required professional judgement to determine which features would deliver the most relevant impact, within the constraints of a short timeline.    These decisions were made after much research and thought, only after establishing that they were both impactful and feasible to accomplish.
+A single software artifact, the CS 340 Client/Server application, was chosen to implement all three enhancement areas in this course.   There were several reasons for this.  By using a single code base, more time was available to implement more substantial feature sets.  Using a single artifact allowed for demonstrating the flexibility and variety of improvements related to the course outcomes that can be identified in a single project. And finally, this artifact contained many disparate components, common in modern software projects.
+One common theme across the enhancements was the importance of automation.  Each was refactored to be deployed as infrastructure as code through a pipeline.   Doing so has many advantages, chief among them, fostering teamwork and collaboration among stakeholders.  By architecting a product to both build itself and deploy itself from a single repository, development and operations teams must work together during almost all project lifecycle phases.  This leads to faster deployment, better integration, repeatability, and better testing.  I have used these techniques to deploy enterprise telephony systems, machine learning models, and many other solutions for many verticals.
+Each of the enhancements incorporate data structures and algorithms inherently.  The Terraform code responsible for each is implemented via declarative data structures defining how each will be instantiated.  This is also done securely, by using security credentials that are maintained in the environment, not in the code itself.  The Artifact Two Enhancement addresses data structures most directly, by leveraging the Pandas DataFrames to compute more sophisticated statistics on the underlying data.
+Software Engineering practices were also a focus across each enhancement.   Continuous Integration and Continuous Delivery (CI/CD) was implemented for each, and automated Unit Tests were also developed to prove that the products met their specifications.  Documentation was created, in the form of appropriate comments, relevant README files, and narratives that served as Software Design Documents.
+Taken as a whole, these enhancements demonstrate the processes taken by a software engineer to refactor prototype code into a production quality software product.  The first enhancement artifact focuses on the overall theme of automation.  The second adds functionality useful to users, and third makes substantially improvements to the database underling the original artifact.  The individual enhancements are examined below and show what can be accomplished with abilities I have gained in the Computer Science program.
+
 
 ### Artifact Code Review
 
 The CS-340 Client/Server final project was used as the orgininal artifact for all three of the enhancement developed for this course.  In this informal code review, the source code was examined in the scope of the three enhancement areas for
 
-
-
 [![CS 499 Russ Savela Code Review](https://img.youtube.com/vi/NZknNQFUsXk/0.jpg)](https://www.youtube.com/watch?v=NZknNQFUsXk)
-
 
 ### Artifact One: Software Engineering and Design Enhancement
 
@@ -35,11 +39,9 @@ The screenshot below demonstrates the application being deployed successfully vi
 
 #### Gitub Link
 The Enhancement One Artifact code is hosted at:
-
 [Enhancement One Artifact](https://github.com/russellsavela/cs499-enhancement-one)
 
 And the orignal code is available at:
-
 [Enhancement One Orignial Artifact]()
 
 ### Artifact Two: Algotrithms and Data Structures Enhancement
@@ -61,7 +63,6 @@ The full narrative can be found here:
 #### Gitub Link
 
 The Enhancement Two Artifact code is hosted at:
-
 [Enhancement Two Artifact](https://github.com/russellsavela/cs499-enhancement-two)
 
 ### Artifact Three: Database Enhancement
@@ -80,7 +81,6 @@ The full narrative can be found here:
 #### Gitub Link
 
 The Enhancement Three Artifact code is hosted at:
-
 [Enhancement Two Artifact](https://github.com/russellsavela/cs499-enhancement-three)
 
 ### Course Outcomes
