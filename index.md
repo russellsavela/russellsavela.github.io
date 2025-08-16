@@ -97,6 +97,6 @@ The full narrative can be found here:
 #### Gitub Link
 
 The Enhancement Three Artifact code is hosted at:
-[Enhancement Two Artifact](https://github.com/russellsavela/cs499-enhancement-three)
+[Enhancement Three Artifact](https://github.com/russellsavela/cs499-enhancement-three)
 
 
