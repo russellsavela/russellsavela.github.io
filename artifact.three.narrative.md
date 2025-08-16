@@ -14,3 +14,22 @@ The largest challenge in this exercise was the lack of standardization across No
 The Unit Tests are contained in testAnimalShelter.py, and these must be run from an instance with an appropriate instance profile granting it permission to access the database.  This is a secure way to implement authentication, as there is no possibility of credentials such as passwords or keys being lost, they don’t exist at all.  
 This Enhancement closely followed the course outcomes identified in Module One.   It delivers value for a common industry-specific goal by implementing replication for the database deployment.  The refactoring of the application improved the security posture by avoiding the use of hard-coded credentials, consistent with the outcome of having a security mindset. 
  
+ 
+### Screenshots
+
+These screenshots demonstrate the implmentation and testing of this Enhancement.
+
+![Enhancement Three Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.three.01.png?raw=true width=800)
+
+![Enhancement Three Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.three.02.png?raw=true width=800)
+
+![Enhancement Three Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.three.03.png?raw=true width=800)
+
+![Enhancement Three Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.three.04.png?raw=true width=800)
+
+![Enhancement Three Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.three.05.png?raw=true width=800)
+
+![Enhancement Three Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.three.06.png?raw=true width=800)
+
+![Enhancement Three Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.three.07.png?raw=true width=800)
+

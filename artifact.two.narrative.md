@@ -12,3 +12,10 @@ The changed database also introduced other incompatibilities.  Data types were n
 
 
 A separate Github submodule was created to store the code for this enhancement, though it is still deployed via the first enhancement’s CI/CD pipeline via a branch.  This was done to minimize the number of pipeline configurations.
+
+### Screenshots
+
+These screenshots demonstrate the implmentation and testing of this Enhancement.
+
+![Enhancement Two Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.two.01.png?raw=true width=800)
+

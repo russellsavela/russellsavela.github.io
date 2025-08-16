@@ -16,3 +16,14 @@ Because this artifact is also being used for other enhancements in this course, 
 
 The value of current documentation was learned during this process, as well as the value of detailed changelog notes when software releases change basic behaviors.  Having access to these saved considerable time in debugging the CI/CD issues that were encountered.  It was also learned that reverse engineering dependencies manually is desirable before implementing any automation, as the troubleshooting can be completed far more quickly.
  
+### Screenshots
+
+These screenshots demonstrate the implmentation and testing of this Enhancement.
+
+![Enhancement One Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.one.01.png?raw=true width=800)
+
+![Enhancement One Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.one.02.png?raw=true width=800)
+
+![Enhancement One Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.one.03.png?raw=true width=800)
+
+![Enhancement One Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.one.04.png?raw=true width=800)

@@ -21,6 +21,18 @@ Software Engineering practices were also a focus across each enhancement.   Cont
 
 Taken as a whole, these enhancements demonstrate the processes taken by a software engineer to refactor prototype code into a production quality software product.  The first enhancement artifact focuses on the overall theme of automation.  The second adds functionality useful to users, and third makes substantially improvements to the database underling the original artifact.  The individual enhancements are examined below and show what can be accomplished with abilities I have gained in the Computer Science program.
 
+### Course Outcomes
+
+Throughout the course, work on each enhancement was aligned with one or more of the course outcomes.  The overall goal of the enhancements as a whole was to adapt the original artifact into a more collaborative form.  This was accomplished for several audiences.  The developers are better able to collaborate with the adoption of a continuous integration and deployment architecture.  This also facilitates collaboration with an operations team.  And finally, end users are better able to engage with an application that is now accessible without a Jupyter notebook, requiring no specific skills to access.
+
+Documentation was created to describe the operation and functionality of the enhancements.  The narratives each serve as software design documents, informing the motivation for each feature.  The code review includes graphics and visuals to emphasize the deficiencies identified, and the proposed feature sets to be implemented.  While each artifact is deployment automatically, appropriate README documentation is also provided in each enhancement repository to clearly specify intended use for a technical audience.
+
+Several design trade-offs were evaluated in the development of the overall project. One example was the cost of deployment time verses development time in choosing instance or container-based compute, instances were ultimately chosen to simplify debugging. The choice of data structures in the infrastructure deployment templates used environmental variables to promote code re-use.  The choice of SciPy stats to implement statistical analysis was an appropriate tool, allowing the use of optimized libraries.
+
+The well-founded practice of deploying immutable infrastructure was adopted for each artifact enhancement.  Any change to the underlying application results in the impacted compute or storage resource being entirely reprovisioned, as appropriate.  This also improves documentation, by versioning every change throughout the software lifecycle.
+
+During the code review, several security weaknesses were identified.  These have been mitigated through the refactoring of the artifact code during the course. Hard-coded passwords were removed entirely and replaced with industry-standard role-based authentication.  The creation of these roles is also managed in code, providing both an audit trail and easing compliance with security standards.
+
 
 ### Artifact Code Review
 
@@ -87,6 +99,4 @@ The full narrative can be found here:
 The Enhancement Three Artifact code is hosted at:
 [Enhancement Two Artifact](https://github.com/russellsavela/cs499-enhancement-three)
 
-### Course Outcomes
 
-List course outcomes here, link to more detail.
