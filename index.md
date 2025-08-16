@@ -92,7 +92,7 @@ The full narrative can be found here:
 
 #### Screenshot
 
-![Enhancement Three Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.three.01.png?raw=true width=600)
+![Enhancement Three Artifact Screenshot](https://github.com/russellsavela/russellsavela.github.io/blob/main/assets/artifact.three.03.png?raw=true width=600)
 
 #### Gitub Link
 
